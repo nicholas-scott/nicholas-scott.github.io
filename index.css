@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*================= Header =================*/
+Header {
+    height: 100vh;
+    min-width: 380px;
+    font-size: 20px;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*========= Nav bar =========*/
+.nav-bar{
+    padding: 0 10% 2% 10%;
+    margin: 0 auto;
+    font-size: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(146, 53, 53, 0));
+}
+
+.nav-bar ul{
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    float:right;
+}
+
+.nav-bar li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px; 
+}
+
+.nav-bar h1{
+    display: inline-block;
+    margin: 10px auto; 
+}
+
+
+/*========= Title =========*/
+.title{
+    position: absolute;
+    font-size: 2vp;
+    display: block;
+    top: 50%;
+    left:50%;
+    transform: translate(-65%, -69%);
+    color: white;
+    text-align: center;
+}
