@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*===== Header =====*/
+Header {
+    height: 100vh;
+    margin: 0;
+    display: block;
+    min-width: 380px;
+    font-size: 20px;
+    background-color: azure;
+}
+
+.nav-bar{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 100%;
+    background-color: cadetblue ;
+    
+}
+
+.nav-bar ul{
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    float:right;
+}
+
+.nav-bar li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px; 
+}
+
+.nav-bar h1{
+    display: inline-block;
+    margin: 0 auto; 
+}
