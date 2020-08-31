@@ -5,27 +5,40 @@
 }
 
 html {
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 /*================= Header =================*/
 Header {
-    height: 100vh;
+    height: 100%;
     min-width: 380px;
     font-size: 20px;
     color:white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
     
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 /*========= Nav bar =========*/
 .nav-bar{
+    position: fixed;
+    width: 100%;
     padding: 0 10% 2% 10%;
     margin: 0 auto;
     font-size: 100%;
@@ -44,6 +57,11 @@ Header {
     list-style-type: none;
     margin-left: 20px; 
 }
+.nav-bar li:hover{
+    
+    filter: drop-shadow(3px 3px 1px #ffffff) drop-shadow(4px 4px 1px #6bccf8);
+    transition: drop-shadow 2s;
+}
 
 .nav-bar h1{
     display: inline-block;
@@ -61,4 +79,20 @@ Header {
     transform: translate(-65%, -69%);
     color: white;
     text-align: center;
+}
+.title h2{
+    border-top-width: 2px;
+    border-top-color: #ffffff;
+    border-top-style: solid;
+}
+
+
+
+/*================= Section =================*/
+section {
+    margin-top: 50vh;
+    margin-left: 20%;
+    margin-right:20%;
+    background-color: #76aaaa;
+   
 }
