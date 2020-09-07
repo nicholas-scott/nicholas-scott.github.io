@@ -6,7 +6,6 @@
 }
 
 html {
-    overflow: hidden;
     -ms-overflow-style: none;       /* IE and Edge */
     scrollbar-width: none;          /* Firefox */
     overflow-x: hidden;
@@ -20,10 +19,7 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-body {
-    overflow: hidden;
-    position: relative;
-    
+body {    
     height: 100%;
     min-width: 380px;
 
