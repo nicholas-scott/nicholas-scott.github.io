@@ -6,9 +6,10 @@
 }
 
 html {
+    overflow: hidden;
     -ms-overflow-style: none;       /* IE and Edge */
     scrollbar-width: none;          /* Firefox */
-
+    overflow-x: hidden;
     -webkit-user-select: none;      /* Safari */        
     -moz-user-select: none;         /* Firefox */
     -ms-user-select: none;          /* IE10+/Edge */
@@ -20,6 +21,9 @@ html::-webkit-scrollbar {
 }
 
 body {
+    overflow: hidden;
+    position: relative;
+    
     height: 100%;
     min-width: 380px;
 
@@ -29,20 +33,17 @@ body {
     text-rendering: optimizeLegibility;
     color:white;
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
 }
 
 
 /*================= Header =================*/
 /*========= Nav bar =========*/
 @media screen and (min-width: 860px){
-
-
     .title {
         transform: translate(-65%, -69%);
     }
@@ -68,22 +69,8 @@ body {
         float:left;
         margin: 10px auto; 
     }
-
-    /* 
-    .nav-items {
-        display: flex;
-        list-style-type: none;
-        margin: 0;
-        margin-top: 25px;
-    }
-
-    .nav-items li {
-        margin-left: 20px; 
-    } */
-
 }
 @media screen and (max-width: 860px){
-
     .title {
         transform: translate(-50%, -50%);
     }
@@ -111,27 +98,7 @@ body {
         margin: 20px auto;
         font-size: 30px; 
     }
-    /* 
-        
-        float:right;
-    }
-
-    .nav-items{
-        display:none;
-    } */
-
 }
-
-
-
-
-.nav-items-dropped{
-    display:flex;   
-    list-style-type: none;
-}
-
-
-
 .nav-bar{
     position: fixed;
     height: 100px;
@@ -142,8 +109,10 @@ body {
     background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(146, 53, 53, 0));
 }
 
-
-
+.nav-items-dropped{
+    display:flex;   
+    list-style-type: none;
+}
 
 
 .nav-items li:hover {
