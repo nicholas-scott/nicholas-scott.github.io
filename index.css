@@ -272,7 +272,7 @@ body {
 
     .title{
         font-size:100%;
-        transform: translate(-73%, -50%);
+        transform: translate(-72%, -50%);
     }
 }
 
@@ -353,9 +353,9 @@ body {
 
 
 /*========= Title =========*/
-.title{   
+.title{  
+    transform-origin: center; 
     position: absolute;
-    font-size: 2vp;
     display: block;
     top: 50%;
     left:50%;
