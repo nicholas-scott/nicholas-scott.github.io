@@ -93,6 +93,7 @@ body {
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp3.jpg);
     }
     .nav-bar{
+        background: #1b1b1b;
         padding: 0 10%;
     }
 
@@ -138,6 +139,7 @@ body {
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp3.jpg);
     }
     .nav-bar{
+        background: #1b1b1b;
         padding: 0 10%;
     }
 
@@ -181,6 +183,7 @@ body {
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
     }
     .nav-bar{
+        background: #1b1b1b;
         padding: 0 10%;
     }
 
@@ -225,6 +228,7 @@ body {
     }
 
     .nav-bar{
+        background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(146, 53, 53, 0));
         padding: 0 15%;
     }
 
@@ -268,6 +272,7 @@ body {
     }
 
     .nav-bar{
+        background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(146, 53, 53, 0));
         padding: 0 15%;
     }
 
@@ -307,12 +312,10 @@ body {
 }
 
 .nav-bar{
+    z-index: 1;
     position: fixed;
-    height: 12vh;
     width: 100%;
     margin: 0 auto;
-    
-    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(146, 53, 53, 0));
 }
 
 .nav-items-dropped{
@@ -381,12 +384,12 @@ body {
     padding: 2%;
     text-align: center;
     background: #2b2b2bf5;
-    border-style: solid;
-    border-color: #df4f3c80;
 
     /* box-shadow: -10px 0px #df4f3c80, 10px 0px #22889680; */
     color:rgb(255, 255, 255); 
 }
+
+
 
 .buffer {
     height: 100vh;
