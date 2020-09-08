@@ -1,7 +1,4 @@
-$(document).ready(function() {
-    $(document).resize(resizeBackground);
-    resizeBackground();
-    
+$(document).ready(function() {    
     $('.nav-toggle').click(() => {
         $('.nav-items').toggleClass('nav-items-dropped')
     })
@@ -28,10 +25,6 @@ $(document).ready(function() {
     });
 });
 
-
-function resizeBackground() {
-    $('.background').height($(document).height());
-}
 
 
 
