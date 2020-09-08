@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $(document).resize(resizeBackground);
+    resizeBackground();
+    
     $('.nav-toggle').click(() => {
         $('.nav-items').toggleClass('nav-items-dropped')
     })
@@ -24,6 +27,13 @@ $(document).ready(function() {
         console.log("About clicked");
     });
 });
+
+
+function resizeBackground() {
+    $('.background').height($(document).height());
+}
+
+
 
 // scrollTo = (id) => {
 //     $('html,body').animate({

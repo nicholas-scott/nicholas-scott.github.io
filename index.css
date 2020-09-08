@@ -27,22 +27,24 @@ body {
     font-size: max(1.5vmax, 23px);
     text-rendering: optimizeLegibility;
     color:white;
-
-
     
+}
+
+.background {
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 50%;
     
+    background-position-y: 50%;
 }
 
 
 /*================= Header =================*/
 /*========= Nav bar =========*/
 @media screen and (max-width: 320px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp3.jpg);
     }
 
@@ -82,7 +84,7 @@ body {
 
 }
 @media screen and (min-width: 320px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp3.jpg);
     }
     .nav-bar{
@@ -122,7 +124,7 @@ body {
 }
 
 @media screen and (min-width: 480px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp3.jpg);
     }
     .nav-bar{
@@ -161,7 +163,7 @@ body {
 }
 
 @media screen and (min-width: 768px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
     }
     .nav-bar{
@@ -200,7 +202,7 @@ body {
 }
 
 @media screen and (min-width: 1024px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
     }
 
@@ -238,7 +240,7 @@ body {
 }
 
 @media screen and (min-width: 1200px){
-    body{
+    .background{
         background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(/src/media/vaporcomp.jpg);
     }
 
