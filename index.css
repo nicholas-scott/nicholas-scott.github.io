@@ -49,6 +49,7 @@ body {
     }
 
     .nav-bar{
+        background: #1b1b1b;
         padding: 0 10%;
     }
 
@@ -56,8 +57,9 @@ body {
         flex-direction: column;
         list-style-type: none;
         margin: 0;
-        margin-top: 80px;
+        margin-top: 13vh;
         display:none;
+        padding-bottom: 3%;
     }
 
     .nav-items li {
@@ -103,6 +105,7 @@ body {
         margin: 0;
         margin-top: 80px;
         display:none;
+        padding-bottom: 3%;
     }
 
     .nav-items li {
@@ -113,7 +116,7 @@ body {
     .nav-bar h1{
         float:left;
         margin: 25px auto;
-        font-size: 25px; 
+        font-size: max(2vmax, 25px);
     }
     
     .nav-toggle {
@@ -149,6 +152,7 @@ body {
         margin: 0;
         margin-top: 80px;
         display:none;
+        padding-bottom: 3%;
     }
 
     .nav-items li {
@@ -159,7 +163,7 @@ body {
     .nav-bar h1{
         float:left;
         margin: 20px auto;
-        font-size: 30px; 
+        font-size: max(2vmax, 30px);
     }
 
     .nav-toggle {
@@ -193,6 +197,7 @@ body {
         margin: 0;
         margin-top: 80px;
         display:none;
+        padding-bottom: 3%;
     }
 
     .nav-items li {
@@ -203,7 +208,7 @@ body {
     .nav-bar h1{
         float:left;
         margin: 20px auto;
-        font-size: 30px; 
+        font-size: max(2vmax, 30px);
     }
 
     .nav-toggle {
@@ -248,7 +253,7 @@ body {
     .nav-bar h1{
         float:left;
         margin: 20px auto;
-        font-size: 30px; 
+        font-size: max(2vmax, 30px); 
     }
 
     .nav-toggle {
@@ -292,7 +297,7 @@ body {
     .nav-bar h1{
         float:left;
         margin: 1.5vmax auto;
-        font-size: max(2vmax, 23px);
+        font-size: max(2vmax, 30px);
     }
 
     .nav-toggle {
@@ -366,7 +371,7 @@ body {
 
 
 .about {
-    padding: 5%;
+    padding: 10% 15%;
     width: 100%;
 }
 .about h1{
