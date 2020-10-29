@@ -107,6 +107,50 @@ body {
         display: block;
     }
     
+    .projects {
+        padding: 5% 5%;
+        width: 100%;
+        display: flex; 
+    }
+
+    .project-images {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .proj-img {
+        margin: 10px;
+        flex: 1;
+        display: block;
+        height: 90%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .project-title {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .project-title h1{
+        width: 100%;
+        text-align: center;
+    }
+    .project-button {
+        width: 100%;
+        margin-top:10px;
+        padding: 7px 20px;
+        background: #4EDF6E;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50px;
+        color: #fff;
+        
+    }
     
 
 }
@@ -169,6 +213,50 @@ body {
         display: block;
     }
 
+    .projects {
+        padding: 5% 5%;
+        width: 100%;
+        display: flex; 
+    }
+
+    .project-images {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .proj-img {
+        margin: 10px;
+        flex: 1;
+        display: block;
+        height: 90%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .project-title {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .project-title h1{
+        width: 100%;
+        text-align: center;
+    }
+    .project-button {
+        width: 100%;
+        margin-top:10px;
+        padding: 7px 20px;
+        background: #4EDF6E;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50px;
+        color: #fff;
+        
+    }
 }
 
 @media screen and (min-width: 480px){
@@ -224,6 +312,52 @@ body {
     .about-blurb {
         text-align: justify;
         display: block;
+    }
+
+    .projects {
+        padding: 5% 5%;
+        width: 100%;
+        display: flex; 
+    }
+
+    .project-images {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .proj-img {
+        margin: 10px;
+        flex: 1;
+        display: block;
+        height: 90%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .project-title {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+    }
+    
+    .project-title h1{
+        text-align: left;
+        flex: 1;
+        float:left;
+    }
+    .project-button {
+        margin-top:0px;
+        width: 130px;
+        padding: 7px 20px;
+        background: #4EDF6E;
+        text-decoration: none;
+        
+        border-radius: 50px;
+        color: #fff;
+        float: right;
     }
 }
 
@@ -283,7 +417,28 @@ body {
         text-align: justify;
         display: block;
     }
+    .projects {
+        padding: 5% 5%;
+        width: 100%;
+        display: flex; 
+    }
 
+    .project-images {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .proj-img {
+        margin: 10px;
+        flex: 1;
+        display: block;
+        height: 90%;
+        background-size: cover;
+        background-position: top;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -342,6 +497,28 @@ body {
         display: block;
         width: 50%;
         margin: auto 0 auto auto;
+    }
+
+    .projects {
+        padding: 10% 15%;
+        width: 100%;
+        display: flex; 
+    }
+
+    .project-images {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        height: 300px;
+    }
+
+    .proj-img {
+        margin: 20px;
+        flex: 1;
+        display: block;
+        height: 100%;
+        background-size: cover;
+        background-position: top;
     }
 }
 
@@ -405,6 +582,27 @@ body {
         margin: auto 0 auto auto;
     }
 
+    .projects {
+        padding: 10% 15%;
+        width: 100%;
+        display: flex; 
+    }
+
+    .project-images {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        height: 300px;
+    }
+
+    .proj-img {
+        margin: 20px;
+        flex: 1;
+        display: block;
+        height: 100%;
+        background-size: cover;
+        background-position: top;
+    }
 
 }
 
@@ -536,11 +734,7 @@ body {
 
 
 /*========= projects =========*/
-.projects {
-    padding: 10% 15%;
-    width: 100%;
-    display: flex; 
-}
+
 
 .project{
     width: 90%;
@@ -565,40 +759,21 @@ body {
 
 .technology-items{
     margin-top: 20px;
-    display: inline-flex;
+    
     list-style-type: none;
-    width: 50%;
+    width: 100%;
 }
 
 .technology-items p {
+    display: inline-flex;
     padding: 2px;
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 1%;
+    margin-top: 5px;
     background: #df4f3c80;
 }
 
-.project-title {
-    width: 100%;
-}
 
-.project-title h1{
-    flex: 1;
-    float:left;
-}
-
-.project-images {
-    display: inline-flex;
-    width: 100%;
-    height: 300px;
-}
-.proj-img {
-    margin: 20px;
-    flex: 1;
-    display: block;
-    height: 100%;
-    background-size: cover;
-    background-position: top;
-}
 
 .img1{
     background-image: url(/src/media/wiki1.jpg);
@@ -618,15 +793,10 @@ body {
     font-size: 18px;
     font-style: italic;
 }
-.project-button {
-    width: 130px;
-    padding: 7px 20px;
-    background: #4EDF6E;
-    text-decoration: none;
-    border-radius: 50px;
-    color: #fff;
-    float: right;
-}
+
+
+
+
 
 .project-button:hover {
     filter: brightness(85%);
