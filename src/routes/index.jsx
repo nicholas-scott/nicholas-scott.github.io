@@ -1,0 +1,5 @@
+export { Contact } from "./contact"
+export { ErrorPage } from "./error-pages"
+export { Main } from "./main"
+export { Projects } from "./projects"
+export { Root } from "./root"

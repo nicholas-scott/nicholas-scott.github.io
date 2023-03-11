@@ -1,32 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { createGlobalStyle, ThemeProvider } from "styled-components"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
-
+import { RouterProvider } from "react-router-dom"
 import "./index.css"
 import theme from "./theme"
-import { Root } from "./routes/root"
-import ErrorPage from "./routes/error-pages"
-import { Contact } from "./routes/contact"
-import Hero from "./routes/main"
-import Main from "./routes/main"
-const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Root />,
-		errorElement: <ErrorPage />,
-		children: [
-			{
-				path: "/contact",
-				element: <Contact />,
-			},
-			{
-				path: "/",
-				element: <Main />,
-			},
-		],
-	},
-])
+import router from "./router"
+
+library.add(faBars)
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -34,11 +16,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  html{
+	
+  }
   body {
     height: 100%;
     font-family: "Nanum Gothic", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+	font-size: 16px;
     
   }
 `

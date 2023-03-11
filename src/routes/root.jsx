@@ -10,6 +10,7 @@ export function Root() {
 			display="flex"
 			flexDirection="column"
 			alignItems="center"
+			height="100vh"
 		>
 			<Box width="100%" maxWidth="large">
 				<Nav />

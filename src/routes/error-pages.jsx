@@ -1,6 +1,7 @@
 import { useRouteError } from "react-router-dom"
 import Box from "../base-components/Box"
-export default function ErrorPage() {
+
+export function ErrorPage() {
 	const error = useRouteError()
 
 	return (

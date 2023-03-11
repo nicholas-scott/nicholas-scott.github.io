@@ -9,6 +9,9 @@ import {
 } from "styled-system"
 
 const Button = styled.button`
+	 {
+		fontfamily: "inherit";
+	}
 	${color}
 	${typography}
     ${shadow}
@@ -17,15 +20,11 @@ const Button = styled.button`
     ${variant({
 		variants: {
 			primary: {
-				bg: "primary",
-				color: "white",
-				fontSize: "1.5rem",
-				fontWeight: "800",
-				borderRadius: "0.5rem",
-				padding: "0.5rem 1rem",
+				fontSize: "medium",
+				fontWeight: "normal",
+				bg: "white",
 				border: "none",
-				boxShadow: "0 0 0 0.5px #000000",
-				cursor: "pointer",
+				p: "1rem",
 			},
 		},
 	})}
