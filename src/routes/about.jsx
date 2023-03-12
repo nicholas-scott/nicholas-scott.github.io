@@ -1,9 +1,9 @@
 import Box from "../base-components/Box"
 
-export function Contact() {
+export function About() {
 	return (
 		<Box>
-			<h1>Contact</h1>
+			<h1>About</h1>
 		</Box>
 	)
 }

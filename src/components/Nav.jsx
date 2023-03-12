@@ -3,11 +3,13 @@ import Typography from "../base-components/Typography"
 import Button from "../base-components/Button"
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "react-router-dom"
+import { ListItem } from "../base-components/ListItem"
 
 function Nav() {
 	const [navDropped, setNavDropped] = useState(false)
 	const navDisplay = navDropped ? "grid" : "none"
-
+	// Onclick, the buttons will route to the appropriate page
 	return (
 		<Box
 			width="100%"
@@ -34,10 +36,17 @@ function Nav() {
 				gridTemplateColumns={["1fr", "1fr", "auto auto auto"]}
 				gridColumnGap={[0, "1rem"]}
 				width={["100%", "100%", "auto"]}
+				as="ul"
 			>
-				<Button variant="primary">Home</Button>
-				<Button variant="primary">About</Button>
-				<Button variant="primary">Projects</Button>
+				<ListItem>
+					<Link to={`/`}>Home</Link>
+				</ListItem>
+				<ListItem>
+					<Link to={`/about`}>About</Link>
+				</ListItem>
+				<ListItem>
+					<Link to={`/projects`}>Projects</Link>
+				</ListItem>
 			</Box>
 		</Box>
 	)

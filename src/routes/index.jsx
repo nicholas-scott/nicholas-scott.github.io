@@ -1,4 +1,4 @@
-export { Contact } from "./contact"
+export { About } from "./about"
 export { ErrorPage } from "./error-pages"
 export { Main } from "./main"
 export { Projects } from "./projects"

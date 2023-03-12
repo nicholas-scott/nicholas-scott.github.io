@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import { Contact, Main, Projects, Root, ErrorPage } from "./routes"
+import { Main, Projects, Root, ErrorPage, About } from "./routes"
 
 const router = createBrowserRouter([
 	{
@@ -8,12 +8,12 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 		children: [
 			{
-				path: "/contact",
-				element: <Contact />,
-			},
-			{
 				path: "/",
 				element: <Main />,
+			},
+			{
+				path: "/about",
+				element: <About />,
 			},
 			{
 				path: "/projects",
