@@ -4,7 +4,7 @@ export default {
 		white: "#fff",
 		blue: "#007ce0",
 		navy: "#004175",
-		mint: "#E6EFE9",
+		mint: "#EAf8E6",
 		lightBlue: "#C5F4E0",
 		lightGreen: "#C2EABA",
 		green: "#A7C4A0",

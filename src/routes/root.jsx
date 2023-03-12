@@ -6,14 +6,14 @@ export function Root() {
 	return (
 		<Box
 			width="100%"
-			bg="black"
+			bg="white"
 			display="flex"
 			flexDirection="column"
 			alignItems="center"
 			height="100vh"
 		>
+			<Nav width="100%" display="flex" justifyContent="center" />
 			<Box width="100%" maxWidth="large">
-				<Nav />
 				<Outlet />
 			</Box>
 		</Box>
