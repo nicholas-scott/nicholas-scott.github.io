@@ -6,7 +6,7 @@ export function Root() {
 	return (
 		<Box
 			width="100%"
-			bg="red"
+			bg="black"
 			display="flex"
 			flexDirection="column"
 			alignItems="center"

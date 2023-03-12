@@ -7,9 +7,9 @@ export function Main() {
 	const navDisplay = navDropped ? "grid" : "none"
 
 	return (
-		<Box width="100%" py="10rem" bg="yellow" px="4rem">
-			<Typography variant="giga">Big Name</Typography>
-			<Typography variant="mega">Slightly Smaller Title</Typography>
+		<Box width="100%" bg="yellow" py="10rem" px="">
+			<Typography variant="giga">Nicholas Scott</Typography>
+			<Typography variant="mega">Software Developer</Typography>
 		</Box>
 	)
 }

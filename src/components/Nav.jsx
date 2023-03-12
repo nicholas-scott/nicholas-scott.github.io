@@ -4,7 +4,6 @@ import Button from "../base-components/Button"
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-router-dom"
-import { ListItem } from "../base-components/ListItem"
 
 function Nav() {
 	const [navDropped, setNavDropped] = useState(false)
@@ -13,7 +12,7 @@ function Nav() {
 	return (
 		<Box
 			width="100%"
-			bg="green"
+			bg="grey"
 			display="flex"
 			flexWrap="wrap"
 			flexDirection="row"
@@ -21,7 +20,7 @@ function Nav() {
 			alignItems="center"
 			p={[".5rem", ".75rem", "1rem"]}
 		>
-			<Typography variant="h3">Nicholas Scott</Typography>
+			<Typography variant="h3">My spot on the internet</Typography>
 			<Typography
 				display={["block", "block", "none"]}
 				onClick={() => {
@@ -38,15 +37,15 @@ function Nav() {
 				width={["100%", "100%", "auto"]}
 				as="ul"
 			>
-				<ListItem>
+				<Typography variant="nav" as="li">
 					<Link to={`/`}>Home</Link>
-				</ListItem>
-				<ListItem>
+				</Typography>
+				<Typography variant="nav" as="li">
 					<Link to={`/about`}>About</Link>
-				</ListItem>
-				<ListItem>
+				</Typography>
+				<Typography variant="nav" as="li">
 					<Link to={`/projects`}>Projects</Link>
-				</ListItem>
+				</Typography>
 			</Box>
 		</Box>
 	)

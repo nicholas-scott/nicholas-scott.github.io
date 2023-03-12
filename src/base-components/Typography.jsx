@@ -18,12 +18,8 @@ const hover = () => {
 }
 
 const Typography = styled.p`
-	${color}
-	${typography}
-  ${shadow}
-  ${layout}
-  ${space}
-  ${variant({
+	${color} ${typography} ${shadow} ${layout} ${space}
+		${variant({
 		variants: {
 			giga: { fontSize: "giga", fontWeight: "800" },
 			mega: {
@@ -41,9 +37,13 @@ const Typography = styled.p`
 				fontSize: "h3",
 				fontWeight: "800",
 			},
+			nav: {
+				fontSize: "medium",
+				fontWeight: "800",
+			},
 		},
 	})}
-  ${(props) => (props.hover ? hover() : "")}
+		${(props) => (props.hover ? hover() : "")};
 `
 
 export default Typography
