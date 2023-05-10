@@ -1,88 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
     <meta
-      name="description"
-      content="Nick's Personal Website"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.00, minimum-scale=1.00"
     />
-    <title>Nicholas K. Scott</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/media/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="./src/index.js"></script>
-    <link href="./index.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <title>Nicholas Scott</title>
   </head>
   <body>
-    <div class="background">
-
-    
-    <header>
-      <div class="nav-bar">
-        <h1>nicholas k scott</h1>  
-        <i class="nav-toggle fas fa-list"></i>
-        <ul class="nav-items">
-            <li id="button-home">home </li>
-            <li id="button-about"> about</li>
-            <li id="button-projects">projects</li>
-            <!-- <li id="button-connect">connect</li> -->
-        </ul>
-      </div>
-      <div class="title">
-        <h1>Nicholas Scott</h1>
-        <h2>developer</h2>
-      </div>
-    </header>
-
-    <section class="buffer"></section>
-
-  
-    <section class="about">
-        <h1>About Me</h1>
-        <div class="about-block">
-          <div class="about-profile">
-            <img src="./src/media/me2.jpg" alt="Avatar" class="avatar">
-            <ul class="about-items">
-              <li><a href="mailto:nickkscott@cmail.carleton.ca"><i class="fas fa-envelope-square"></i></a></li>
-              <li><a href="https://github.com/torantella"><i class="fab fa-github"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/nick-scott-02b187206/"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="about-blurb">
-            <p>My name is Nick and I'm a third year computer science student at Carleton University in Ottawa, Ontario Canada. This is a website to showcase my work so feel free to look around. I'm very eager to learn about new technologies and use them to build something cool. If you'd like to build something together, let's get in touch!</p>
-          </div>
-        </div>
-    </section>
-
-    <section class="projects">
-      <div class="project">
-        <div class="project-title">
-          <h1>Wiki-Explorer</h1>
-          <a class="project-button" href="https://wiki-explorer.herokuapp.com/">Website</a>
-        </div>
-        <div class="project-images">
-          <div class="proj-img img1"></div>
-          <div class="proj-img img2"></div>
-        </div>
-        <p class="project-sum">A web-application that visualizes random Wikipedia pages as rooms. Allows a person to get to other articles by entering doors.</p>
-        <p class="project-tec">Inspired by Monsters Inc. Developed utilizing React components and grommet styling with a touch of my own art</p>
-        <div class="technology-items">
-          <p>HTML</p> 
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Grommet</p>
-          
-        </div>
-      </div>
-    </section>
-
-
-    
-        
-  </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
