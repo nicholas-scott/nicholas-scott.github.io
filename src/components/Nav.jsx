@@ -22,7 +22,7 @@ function Nav(props) {
 				p={[".5rem", ".75rem", "1rem"]}
 				alignSelf="center"
 			>
-				<Typography variant="h3">Hi!</Typography>
+				<Typography variant="h3">Nicholas Scott</Typography>
 				<Typography
 					display={["block", "block", "none"]}
 					onClick={() => {
