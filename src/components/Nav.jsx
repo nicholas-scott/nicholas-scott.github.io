@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 function Nav(props) {
 	const [navDropped, setNavDropped] = useState(false)
-	const navDisplay = navDropped ? "grid" : "none"
+	const navDisplay = navDropped ? "flex" : "none"
 	// Onclick, the buttons will route to the appropriate page
 	return (
 		<Box {...props} borderBottom="1px solid">
@@ -38,6 +38,8 @@ function Nav(props) {
 					gridColumnGap={[0, "1rem"]}
 					width={["100%", "100%", "auto"]}
 					as="ul"
+					alignItems="center"
+					flexDirection={["column", "column", "row"]}
 				>
 					<Typography variant="med" as="li">
 						<Link to={`/`}>Home</Link>

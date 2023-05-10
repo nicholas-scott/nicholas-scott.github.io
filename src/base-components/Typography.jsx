@@ -21,19 +21,19 @@ function animation() {
 	return `
   @keyframes bounce {
     0% {
-      
-      transform: translateY(20px);
+	   opacity: 0;
+      transform: translateY(30px);
     }
     75% {
-      visibility: visible;
-      transform: translateY(-5px);
+		opacity: 75%;
+      transform: translateY(-5x);
     }
     100% {
-      visibility: visible;
+		opacity: 100%
       transform: translateY(0);
     }
   }
-  animation: bounce .25s linear;
+  animation: bounce .5s ease-in;
   `
 }
 
