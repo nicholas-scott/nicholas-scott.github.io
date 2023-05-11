@@ -64,14 +64,13 @@ const Typography = styled.p`
 
 			med: {
 				fontSize: "medium",
-				fontWeight: "600",
+				fontWeight: "400",
 				fontColor: "black",
 			},
 			poem: {
-				fontSize: "small",
+				fontSize: "medium",
 				fontWeight: "400",
 				fontStyle: "italic",
-				marginBottom: "1rem",
 			},
 		},
 	})}

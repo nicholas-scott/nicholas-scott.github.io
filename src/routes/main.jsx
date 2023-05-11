@@ -16,30 +16,43 @@ export function Main() {
 			</Typography> */}
 			<Typography variant="med">
 				You may be wondering why my personal website is titled
-				theaddlepatedpaddlepuss. If you’re here it's because I have your
-				attention and although my projects are probably the thing you're
-				here to see, I want you to read the poem titled: The Addle-Pated
-				Paddlepuss. Here it is.
+				theaddlepatedpaddlepuss. If you’re here it's probably because I
+				have your attention and although my projects are probably the
+				thing you're here to see, I want you to first read the poem
+				titled: The Addle-Pated Paddlepuss. Here it is.
 			</Typography>
-
-			<Typography textAlign="center" width="50%" mx="auto">
+			<Typography
+				textAlign="center"
+				width="50%"
+				mx="auto"
+				marginTop="5rem"
+				variant="h3"
+			>
 				The Addle-pated Paddlepus <br></br> Jack Prelutsky<br></br>
 			</Typography>
-			<Typography textAlign="center" width="30%" mx="auto" variant="poem">
-				<br></br>The Addle-pated Paddlepuss is agile as a cat, its neck
-				is long and limber, and its face is broad and flat, it moves
-				with skill and vigor, with velocity and grace, as it spends its
-				every second playing Ping-Pong with its face. <br></br>
+			<Typography
+				textAlign="center"
+				width="50%"
+				mx="auto"
+				marginBottom="5rem"
+				variant="poem"
+			>
+				<br></br>The Addle-pated Paddlepuss is agile as a cat, <br></br>
+				its neck is long and limber, and its face is broad and flat,{" "}
+				<br></br>it moves with skill and vigor, with velocity and grace,{" "}
+				<br></br>as it spends its every second playing Ping-Pong with
+				its face. <br></br>
 				<br></br>
-				The Addle-pated Paddlepuss prevails in every game, its opponent
-				doesn't matter, the result is all the same, with its supersonic
-				smashes and its convoluted spins, it demolishes all comers and
-				invariably wins.<br></br>
+				The Addle-pated Paddlepuss prevails in every game, <br></br>its
+				opponent doesn't matter, the result is all the same, <br></br>
+				with its supersonic smashes and its convoluted spins, <br></br>
+				it demolishes all comers and invariably wins.<br></br>
 				<br></br>
-				The Addle-pated Paddlepuss, with its effervescent verve, follows
-				innovative volleys with a scintillating serve, if you’re fond of
-				playing ping-pong and would like to lose in style, the
-				Addle-pated Paddlepuss will serve you for a while
+				The Addle-pated Paddlepuss, with its effervescent verve,
+				<br></br>follows innovative volleys with a scintillating serve,
+				<br></br>if you’re fond of playing ping-pong and would like to
+				lose in style, <br></br>the Addle-pated Paddlepuss will serve
+				you for a while
 			</Typography>
 			<Typography variant="med">
 				I learned this poem in the third grade at the encouragement of
@@ -52,8 +65,8 @@ export function Main() {
 				curious enough to read it. The book goes into detail about
 				various children's authors and their approach to their writting
 				style. I was eager to get to the segment by Jack Prelutsky,
-				enough to skip another author's less interesting section. I hope
-				my story with this poem can continue on in the future.
+				enough to skip another author's less interesting section. My
+				story with poem continues to expand to this day
 				<br></br>
 				<br></br> So what's the point of this homepage? This domain?
 				Certainly not the fact that I got this domain name for free for
